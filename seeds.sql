@@ -1,4 +1,4 @@
-INSERT INTO department (department_name)
+INSERT INTO department (name)
 VALUES
 ('Finance'),
 ('Management'),
@@ -6,7 +6,7 @@ VALUES
 ('Quality Assurance'),
 ('Marketing');
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES
 ('General Accountant', 60000.00, 1),
 ('Assistant Property Manager', 120000.00, 2),
@@ -17,11 +17,11 @@ VALUES
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('Shay', 'Jarvis', 1, 2),
-('Brantley', 'Logam', 2),
+('Brantley', 'Logam', 2, null),
 ('Kora', 'Collier', 3, 2),
-('Kadem', 'Bowman', 4, 2)
-('Fiona','Wiggens', 5, 2);
-('River','Santiago', 3, 2);
-('Thea','Chain', 2);
-('Frank','Aguirre', 4, 2);
+('Kadem', 'Bowman', 4, 2),
+('Fiona','Wiggens', 5, 2),
+('River','Santiago', 3, 2),
+('Thea','Chain', 2, null),
+('Frank','Aguirre', 4, 2),
 ('Marshall','Hopkins', 1, 2);

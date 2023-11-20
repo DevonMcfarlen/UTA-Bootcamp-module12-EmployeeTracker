@@ -18,6 +18,7 @@
   ## Installation Instructions <a name="install"></a>
 
   TBC
+  [Development Update Video](./development-update.mp4) 
 
   ## Questions <a name="questions"></a>
 
